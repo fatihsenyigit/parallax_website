@@ -52,7 +52,7 @@
     margin: 0 50px;
     line-height: 40px;
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 50px;
     color: #4c4c4c;
     font-weight: 500;
@@ -88,7 +88,7 @@
     padding: 0 50px;
     line-height: 40px;
     text-align: center;
-    font-size: 24px;
+    font-size: 26px;
     padding-bottom: 50px;
     color: white;
     font-weight: 500;
@@ -119,6 +119,59 @@
     outline-color: purple;
     outline-width: 10px;
     outline-offset: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.container6 {
+    background-color: white; 
+
+}
+
+.container6 h1 {
+    margin: 50px;
+    text-align: center;  
+    color: #4c4c4c;  
+}
+
+.container6 p {
+    margin: 0 50px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 50px;
+    color: #4c4c4c;
+    font-weight: 500;
+}
+
+.container7 {
+    background-image: url(./images/bg4.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;    
+}
+
+.container7 h1 {
+    background-color: #4c4c4ccc;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 68px;
+    line-height: 80px;
+    letter-spacing: 0.9rem;
+    font-weight: 400;
+    width: 600px;
+    text-align: center;
+    padding: 30px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    outline-style: inset;
+    outline-color: purple;
+    outline-width: 5px;
+    outline-offset: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
