@@ -9,7 +9,8 @@
     background-image: url(./images/bg.jpg);
     background-size: cover;
     height: 100vh;
-    background-attachment: fixed;    
+    background-attachment: fixed;
+    position: relative;    
 }
 
 .main .container1 h1 {
@@ -18,7 +19,7 @@
     font-family: 'Lato', sans-serif;
     font-size: 68px;
     line-height: 80px;
-    letter-spacing: 1.1rem;
+    letter-spacing: 0.9rem;
     font-weight: 400;
     width: 700px;
     text-align: center;
@@ -41,16 +42,54 @@
 
 }
 
-.main .container2 h1 {
+.container2 h1 {
     margin: 50px;
     text-align: center;  
     color: #4c4c4c;  
 }
 
-.main .container2 p {
+.container2 p {
     margin: 0 50px;
     line-height: 40px;
     text-align: center;
     font-size: 24px;
     margin-bottom: 50px;
+    color: #4c4c4c;
+    font-weight: 500;
+}
+
+.container3 {
+    background-image: url(./images/bg2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;    
+    position:relative
+}
+
+.container3 img {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container4 {
+    background-color: #4c4c4c; 
+}
+
+.container4 h1 {
+    padding: 50px;
+    text-align: center;  
+    color: white;  
+}
+
+.container4 p {
+    padding: 0 50px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 50px;
+    color: white;
+    font-weight: 500;
 }
